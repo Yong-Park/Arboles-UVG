@@ -35,7 +35,18 @@ public class Main{
         SplayTree.prettyPrint();
 
         //redblacktree
-        RedBlackBST<Integer,Integer> blacktree = new RedBlackBST<>();
-        
+        System.out.println("RedBlackTree");
+        RedBlackBST redblacktree = new RedBlackBST();
+        redblacktree.insert(7);
+        redblacktree.insert(5);
+        redblacktree.insert(15);
+        redblacktree.insert(4);
+        redblacktree.insert(6);
+        redblacktree.insert(12);
+        redblacktree.insert(17);
+        redblacktree.insert(2);
+        redblacktree.insert(1);
+        redblacktree.insert(9);
+        redblacktree.prettyPrint();
     }
 }
