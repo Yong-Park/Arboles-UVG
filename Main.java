@@ -17,8 +17,10 @@ public class Main{
   
         Heap.print();
         System.out.println("The min heap is " + Heap.remove());
+        System.out.println("");
 
         //funcion del splaytree
+        System.out.println("Splay Tree");
         SplayTreeFunction SplayTree = new SplayTreeFunction();
         SplayTree.insert(17);
         SplayTree.insert(4);
@@ -31,5 +33,9 @@ public class Main{
         SplayTree.insert(1);
         SplayTree.insert(9);
         SplayTree.prettyPrint();
+
+        //redblacktree
+        RedBlackBST<Integer,Integer> blacktree = new RedBlackBST<>();
+        
     }
 }

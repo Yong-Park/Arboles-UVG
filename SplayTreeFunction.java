@@ -1,3 +1,4 @@
+//codigo obtenido de https://github.com/Bibeknam/algorithmtutorprograms/blob/master/data-structures/splay-trees/SplayTree.java
 class Node {
     int data; // holds the key
     Node parent; // pointer to the parent
